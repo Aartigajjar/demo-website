@@ -1,0 +1,83 @@
+.header {
+    background-color: #9061b1;
+    padding: 10px 40px;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .head{
+    text-align: center;
+    padding: 30px 40px;
+
+
+}
+.texthead{
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: #9061b1;
+}
+
+.card{
+    border-radius: 20px;
+    margin:5% 20% 5% 20%;
+}
+
+  .background{
+      color: black !important;
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.15);
+      border-radius: 50%;
+      justify-items: center;
+      border: #9061b1;
+  }
+
+  .addBtn {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #9061b1;
+    margin: 0px 8px 0px 8px;
+    padding: 8px 14px;
+    border: none;
+    border-radius:40px;
+  }
+
+  .addBt {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #9061b1; 
+    border-radius:60px;
+    border: none;
+}
+
+@media only screen and (max-width:768px) {
+    .addBtn{
+        margin: 0px 5px 0px 5px;
+        padding: 8px 12px;
+        border-radius:20px !important;
+    }
+    .texthead{
+        width: 70%;    
+    }
+}
+
+@media only screen and (max-width:443px) {
+    .addBtn{
+        margin: 0px 3px 0px 3px;
+        padding: 6px 8px;
+        border-radius:15px !important;
+    }
+    .texthead{
+        width: 60%;    
+    }
+}
+
+li{
+    list-style: none;
+    
+}
+
+
+  
